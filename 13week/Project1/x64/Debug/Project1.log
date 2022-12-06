@@ -1,0 +1,13 @@
+﻿  Oper.c
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(2,10): error C2084: функция "unsigned int MultiplicationOfTheDigitsInANumber(unsigned int)" уже имеет текст реализации
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(2,10): message : см. предыдущее определение "MultiplicationOfTheDigitsInANumber"
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(12,10): error C2084: функция "unsigned int SumOfTheDigitsInANumber(unsigned int)" уже имеет текст реализации
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(12,10): message : см. предыдущее определение "SumOfTheDigitsInANumber"
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(22,10): error C2084: функция "unsigned int A(unsigned int)" уже имеет текст реализации
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(22,10): message : см. предыдущее определение "A"
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(34,10): error C2084: функция "unsigned int B(unsigned int)" уже имеет текст реализации
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(34,10): message : см. предыдущее определение "B"
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(44,10): error C2084: функция "unsigned int C(unsigned int)" уже имеет текст реализации
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(44,10): message : см. предыдущее определение "C"
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(54,10): error C2084: функция "unsigned int D(unsigned int)" уже имеет текст реализации
+C:\Users\Vit\Desktop\info\13week\Project1\Oper.c(54,10): message : см. предыдущее определение "D"
