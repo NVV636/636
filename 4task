@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+void swap(int* left, int* right);
+void sorting(int* arr, int size);
+
+
+int main(int argc, char* argv[])
+{
+	int Str = atoi(argv[1]);
+	int* Len = (int*)malloc(sizeof(int) * (argc - 2));
+	for (int i = 1; i < argc; i++)
+	{
+		Len[i - 2] = strlen(argv[i]);
+	}
+	sorting(Len, argc - 2);
+	int Len2 = Len[Str - 1];
+	int count = 0;
+	for (int i = 1; i < argc; i++)
+	{
+		if (count == Str) break;
+		if (strlen(argv[i]) >= Len2)
+		{
+			printf_s("%s ", argv[i]);
+			count++;
+		}
+	}
+	return 0;
+}
+
+void sorting(int* arr, int size)
+{
+	for (int i = 0; i < size; i++)
+	{
+		for (int j = 0; j < size; j++)
+		{
+			if (arr[j] < arr[j + 1]) swap(&arr[j], &arr[j + 1]);
+		}
+	}
+}
+
+void swap(char* x, char* y) {
+    char t = *x; *x = *y; *y = t;
+}
