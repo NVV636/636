@@ -1,17 +1,17 @@
 #include "func.h"
 int SearchSubStringInString(char* str1, char* str2)
 {
-	for (int i = 0; i < StrLen(str1); i++)
+	if (StrLen(str2) > StrLen(str1)) return -1;
+	for (int i = 0; i < StrLen(str1) - StrLen(str2) + 1; i++)
 	{
-		for (int j = i, k = 0; k < StrLen(str2) && str1[j] == str2[k]; j++, k++)
+		unsigned count = 0;
+		for (int j = 0; j < StrLen(str2); j++)
 		{
-			if (k = StrLen(str2) - 1)
-			{
-				i++;
-				return i;
-			}
+			if (str2[j] == str1[i + j]) count++;
 		}
+		if (count == StrLen(str2)) return i;
 	}
+	return -1;
 }
 
 int StrLen(char* str)
