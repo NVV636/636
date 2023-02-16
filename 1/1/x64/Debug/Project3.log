@@ -1,0 +1,3 @@
+﻿  func.c
+C:\Users\Vit\Desktop\info\Project3\Project3\func.c(50,44): warning C4018: <: несоответствие типов со знаком и без знака
+  Project3.vcxproj -> C:\Users\Vit\Desktop\info\Project3\x64\Debug\Project3.exe
