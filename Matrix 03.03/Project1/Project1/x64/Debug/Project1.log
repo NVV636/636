@@ -1,0 +1,11 @@
+﻿  func.c
+C:\Users\Vit\Desktop\Matrix 03.03\Project1\Project1\func.c(13,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Vit\Desktop\Matrix 03.03\Project1\Project1\func.c(15,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Vit\Desktop\Matrix 03.03\Project1\Project1\func.c(17,61): warning C4047: =: "int **" отличается по уровням косвенного обращения от "int *"
+C:\Users\Vit\Desktop\Matrix 03.03\Project1\Project1\func.c(30,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Vit\Desktop\Matrix 03.03\Project1\Project1\func.c(32,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Vit\Desktop\Matrix 03.03\Project1\Project1\func.c(47,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Vit\Desktop\Matrix 03.03\Project1\Project1\func.c(49,21): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Vit\Desktop\Matrix 03.03\Project1\Project1\func.c(58,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Vit\Desktop\Matrix 03.03\Project1\Project1\func.c(60,21): warning C4018: <: несоответствие типов со знаком и без знака
+  Project1.vcxproj -> C:\Users\Vit\Desktop\Matrix 03.03\Project1\x64\Debug\Int.exe
