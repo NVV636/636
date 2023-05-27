@@ -1,0 +1,7 @@
+﻿  main.c
+C:\Users\Vit\Desktop\Matrix 03.03\SNAKEYOPTA\SNAKEYOPTA\main.c(114,35): warning C4305: инициализация: усечение из "double" в "const float"
+C:\Users\Vit\Desktop\Matrix 03.03\SNAKEYOPTA\SNAKEYOPTA\main.c(412,17): warning C4113: "void (__cdecl *)()" отличается в списках параметров от "void (__cdecl *)(void)"
+C:\Users\Vit\Desktop\Matrix 03.03\SNAKEYOPTA\SNAKEYOPTA\main.c(413,21): warning C4113: "void (__cdecl *)()" отличается в списках параметров от "void (__cdecl *)(void)"
+C:\Users\Vit\Desktop\Matrix 03.03\SNAKEYOPTA\SNAKEYOPTA\main.c(462,24): warning C4113: "void (__cdecl *)()" отличается в списках параметров от "void (__cdecl *)(void)"
+C:\Users\Vit\Desktop\Matrix 03.03\SNAKEYOPTA\SNAKEYOPTA\main.c(463,28): warning C4113: "void (__cdecl *)()" отличается в списках параметров от "void (__cdecl *)(void)"
+  SNAKEYOPTA.vcxproj -> C:\Users\Vit\Desktop\Matrix 03.03\SNAKEYOPTA\x64\Debug\SNAKEYOPTA.exe
