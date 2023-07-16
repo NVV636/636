@@ -1,0 +1,9 @@
+﻿  main.c
+C:\Users\Vit\Desktop\лп\Project6\Project6\main.c(8,11): warning C4244: функция: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Vit\Desktop\лп\Project6\Project6\main.c(233,22): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Vit\Desktop\лп\Project6\Project6\main.c(239,22): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Vit\Desktop\лп\Project6\Project6\main.c(245,22): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Vit\Desktop\лп\Project6\Project6\main.c(251,22): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Vit\Desktop\лп\Project6\Project6\main.c(262,71): warning C4090: функция: разные квалификаторы "const"
+C:\Users\Vit\Desktop\лп\Project6\Project6\main.c(225,161): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Project6.vcxproj -> C:\Users\Vit\Desktop\лп\Project6\x64\Debug\Project6.exe
