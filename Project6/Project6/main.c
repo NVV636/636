@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
 {
     int minLength = 0;
     int maxLength = 0;
-    int length = 1;
+    int length = 0;
     int count = 1;
     const char* alphabet = NULL;
     const char* charSet = NULL;
@@ -149,8 +149,6 @@ int main(int argc, char* argv[])
                 printf("-a was used");
                 return 1;
             }
-
-            
         }
         else if (strcmp(argv[i], "-C") == 0) 
         {
@@ -190,10 +188,15 @@ int main(int argc, char* argv[])
 
     if (charSet != NULL) 
     {
+        if (strlen(charSet) > 4)
+        {
+            printf("Wrong charset\n");
+            return 1;
+        }
         char* lowercase = "abcdefghijklmnopqrstuvwxyz";
         char* uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         char* digits = "0123456789";
-        char* symbols = "!@#$%^&*()";
+        char* symbols = "!@#$%^&*()\'\\";
 
         int lowercaseFlag = 0;
         int uppercaseFlag = 0;
@@ -205,15 +208,35 @@ int main(int argc, char* argv[])
             switch (charSet[i]) 
             {
             case 'a':
+                if (lowercaseFlag)
+                {
+                    printf("Wrong charset\n");
+                    return 1;
+                }
                 lowercaseFlag = 1;
                 break;
             case 'A':
+                if (uppercaseFlag)
+                {
+                    printf("Wrong charset\n");
+                    return 1;
+                }
                 uppercaseFlag = 1;
                 break;
             case 'D':
+                if (digitsFlag)
+                {
+                    printf("Wrong charset\n");
+                    return 1;
+                }
                 digitsFlag = 1;
                 break;
             case 'S':
+                if (symbolsFlag)
+                {
+                    printf("Wrong charset\n");
+                    return 1;
+                }
                 symbolsFlag = 1;
                 break;
             default:
